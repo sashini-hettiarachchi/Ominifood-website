@@ -17,11 +17,15 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+/* ----------------------------------------------------- */
+/* COMMON */
+/* ----------------------------------------------------- */
+
 .row {
   max-width: 1140px;
   margin: 0 auto;
 }
-.section {
+section {
   padding: 80px 0;
 }
 .box {
@@ -177,11 +181,59 @@ h3 {
   background-color: #cf6d17;
 }
 
-/* ---------ICONS */
+/* ----------------------------------------------------- */
+/* ICONS */
+/* ----------------------------------------------------- */
 
 .icon-big {
   font-size: 300%;
   display: block;
   color: #e67e22;
   margin-bottom: 10px;
+}
+
+/* ----------------------------------------------------- */
+/* FEATURES SECTION */
+/* ----------------------------------------------------- */
+
+.section-features .long-copy {
+  margin-bottom: 30px;
+}
+/* ----------------------------------------------------- */
+/* MEALS SECTION */
+/* ----------------------------------------------------- */
+
+.section-meals {
+  padding: 0;
+}
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase  li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.meal-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.5);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+  opacity: 1;
+  transform: scale(1.03);
 }
