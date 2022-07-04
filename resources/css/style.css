@@ -465,3 +465,82 @@ input[type=checkbox]{
   margin: 10px 5px 10px 0;
 }
 
+/* ----------------------------------------------------- */
+/* Footer */
+/* ----------------------------------------------------- */
+
+footer {
+  background-color: rgb(27, 27, 27);
+  padding: 40px;
+  font-size: 80%;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+  margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  color: #888;
+  border: 0;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.social-links li a:hover,
+.social-links li a:active {
+  color: #ccc;
+}
+
+.social-links li a:link,
+.social-links ls a:visited{
+  font-size: 130%;
+}
+
+.icon-fb,
+.icon-tw,
+.icon-g,
+.icon-in{
+  transition: color 0.2s;
+}
+.icon-fb:hover{
+  color: #3b5998;
+}
+.icon-tw:hover{
+  color: #00aced;
+}
+.icon-g:hover{
+  color: #dd4b39;
+}
+.icon-in:hover{
+  color: #517fa4;
+}
+
+footer p{
+  color: #888;
+  text-align: center;
+  font-size: 90%;
+  margin-top: 20px;
+}
+
